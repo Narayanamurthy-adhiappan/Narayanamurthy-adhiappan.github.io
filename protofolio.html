@@ -65,7 +65,7 @@ img{
 	margin-left: 25%;
 	
 }
-h5{
+.intro h5{
 	margin-left: 28%
 }
 
@@ -125,11 +125,32 @@ h5{
 .redOrange{
 	color: #ff3300;
 }
+.space_hidden{
+	display: none;
+}
 
+#show_panel{
+	display: none;
+}
 @media (max-width: 770px){
 	#hidePanel{
 		display: none;
 	}
+	#show_panel{
+		display: block;
+	}
+	.space_hidden{
+		display: block
+	}
+}
+.black_background{
+	background-color: #000;
+	position: fixed;
+	z-index: 1020;
+}
+.outline_style{
+	border:1px solid  #fff;
+	
 }
 </style>
 
@@ -138,17 +159,37 @@ h5{
 
 
 <body>
-<div class = "container-fluid">
-</div>
+<div class = "container-fluid ">
+	<div class = "row outline_style black_background"  id = "show_panel">
+		<div class = "col-xs-12 col-sm-12 col-md-12">
+			<center>
+			<h3 style = "color: #fff">NarayanaMoorthy A</h1>
+			<h5 style = "color: #fff">Chennai, India</h1>
+			<div style = "color:#fff" class = "desc">
+				<q>I am a young Passionate <span>programmer</span> and <span>web designer</span>, looking for a platform to improve and enhance my skill.</q>
+					<I>Student @ <span>Code Academy, edwisor.com , HackerRank, Project Euler</span></I>
+			</div>
+			</center>
+		</div>
+	</div>
+    <div class = "space_hidden">
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br><br>
+	</div>
+	
 <div class = "container">
 <div class = "row">
-<div class = "col-md-6 col-sm-6">
+<div class = "col-md-6 col-sm-6 col-lg-6 col-xs-12">
 <div class = "sidePanel" id = "hidePanel">
 	<div class = "profileImg">
 		<img src = "http://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/1487701021/eiffel-tower-paris-france-EIFFEL0217.jpg?itok=m0MZOYjh" />
 		<div class = "overlayImg"></div>
 			<div class = "profilePic">
-				<img src = "20170503_101402.jpg" />
+				<img src = "murthy_profile.jpg" class = "img-responsive"/>
 				<div class = "intro">
 				
 					<h3>NarayanaMoorthy A</h3>
@@ -165,7 +206,7 @@ h5{
 		</div>
 </div>
 </div>
-<div class = "col-md-6 col-sm-5 col-xs-12">
+<div class = "col-md-6 col-sm-5 col-xs-12 col-lg-6">
 	<div class = "row">
 		<div class = "col-md-12">
 			<div class = "section">
@@ -312,6 +353,7 @@ h5{
 				<dl>
 			</div>	
 		</div>
+</div>
 </div>
 </div>
 </div>
