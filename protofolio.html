@@ -1,364 +1,216 @@
 <!DOCTYPE html>
-<html>
-
-
+<html lang = "en">
 <head>
 
-<title>NarayanaMurthy Profile</title>
 
+<title>My Protofolia</title>
+<link rel = "stylesheet" href = " Main.css" type= "text/css"/> 
 
-<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-<style>
-body{
-	background-color: rgba(0,0,0, 0.92);
-}
-
-img{
-	width: 40%;
-	height: 100%;
-	position: fixed;
-}
-
-
-.profileImg{
-	width: 40%;
-	height: 100%;
-	position: fixed;
-	
-}
-.overlayImg{
-	width: 40%;
-	height: 100%;
-	position: fixed;
-	background-color: black;    
-	opacity: 0.85;
-	z-index: 200;
-}
-
-.profilePic img{
-	height: 150px;
-	width: 150px;
-	border-radius: 50%;
-	text-align: center;
-	left: 16%;
-	right: 84%;
-	top: 25%;
-	z-index: 1000;
-}
-
-.profilePic q{
-	color: white;
-	z-index: 1000;
-}
-.intro{
-	color: white;
-	z-index: 1000;
-	position: absolute;
-	margin-left: 25%;
-	
-}
-.intro h5{
-	margin-left: 28%
-}
-
-.CareerObj q{
-	text-align: center;
-	
-	top: 55%;
-	z-index: 1010;
-	color: white;
-	position: absolute;
-}
-.CareerObj q span{
-	color: #3377ff;
-}
-.CareerObj I{
-	text-align: center;
-	
-	top: 70%;
-	z-index: 1010;
-	color: white;
-	position: absolute;
-}
-
-.CareerObj I span{
-	color: #3377ff;
-}
-.CareerObj div span {
-	text-align: center;
-	left: 45%;
-	top: 85%;
-	z-index: 1010;
-	color: white;
-	position: absolute;
-	border: 1px solid white;
-	padding: 15px;
-	border-radius: 50%;
-}
-.CareerObj div span {
-	color: white;
-}
-.sideRightPanel{
-	color: black;
-	right: 0%;
-	position: relative;
-}
-.section{
-	 border: 1px solid grey; 
-	 box-shadow: 10px 10px 5px grey;
-	 padding: 10px;
-	 
-	 background: white;
-	 
-}
-.lightblue{
-	color: #3377ff;
-}
-.redOrange{
-	color: #ff3300;
-}
-.space_hidden{
-	display: none;
-}
-
-#show_panel{
-	display: none;
-}
-@media (max-width: 770px){
-	#hidePanel{
-		display: none;
-	}
-	#show_panel{
-		display: block;
-	}
-	.space_hidden{
-		display: block
-	}
-}
-.black_background{
-	background-color: #000;
-	position: fixed;
-	z-index: 1020;
-}
-.outline_style{
-	border:1px solid  #fff;
-	
-}
-</style>
 
 
 </head>
-
-
 <body>
-<div class = "container-fluid ">
-	<div class = "row outline_style black_background"  id = "show_panel">
-		<div class = "col-xs-12 col-sm-12 col-md-12">
-			<center>
-			<h3 style = "color: #fff">NarayanaMoorthy A</h1>
-			<h5 style = "color: #fff">Chennai, India</h1>
-			<div style = "color:#fff" class = "desc">
-				<q>I am a young Passionate <span>programmer</span> and <span>web designer</span>, looking for a platform to improve and enhance my skill.</q>
-					<I>Student @ <span>Code Academy, edwisor.com , HackerRank, Project Euler</span></I>
-			</div>
-			</center>
-		</div>
+
+<div class = "container-fuild">
+	<div class = "row custom_header">
+		<h1>Hello !</h1>
+		
+		<h3 class="txt-rotate" data-period="500" data-rotate='[ "My Name is Narayanamoorthy", "I am a Coding puff", "In Computer programming for more than 6 years"]'></h3>
+		<h2 style = "color: #ff1a75">ABOUT ME</h2>
+		<p style = "font-family: Florence, cursive; font-size: 18px;">
+			"I am a young Passionate programmer and web designer, looking for a platform to improve and enhance my skill."
+		</p>
 	</div>
-    <div class = "space_hidden">
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br><br>
+</div>
+
+
+<div class = "container">
+	<div class = "row" style = " border-bottom: 3px solid grey; padding-top: 15px; padding-bottom: 15px">
+		<div class = "col-md-3" >
+			<img src="murthy_profile.jpg" class="img-responsive img-circle" alt="Murthy"/>
+		</div>
+		<div class = "col-md-9" style = "text-align: center;  padding-top: 50px;">
+			<span style = "color: #ff0055">My Life So Far</span>
+			<p style = "font-size: 18px; text-indent: 50px;">
+			"I was born on March 14, 1995. My Father name is Adhiappan and my mother name is Parameshwari. I have completed my B.E
+			in stream of Computer science and Engineering in Panimalar Institute of Technology, Chennai in 2016. Since then I started
+			working as a IS R&amp;D Eng in Valeo India Pvt. Ltd."
+			
+		</p>
+		</div>
+		
 	</div>
 	
+</div>
+
 <div class = "container">
-<div class = "row">
-<div class = "col-md-6 col-sm-6 col-lg-6 col-xs-12">
-<div class = "sidePanel" id = "hidePanel">
-	<div class = "profileImg">
-		<img src = "http://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/1487701021/eiffel-tower-paris-france-EIFFEL0217.jpg?itok=m0MZOYjh" />
-		<div class = "overlayImg"></div>
-			<div class = "profilePic">
-				<img src = "20170503_101402.jpg" class = "img-responsive"/>
-				<div class = "intro">
-				
-					<h3>NarayanaMoorthy A</h3>
-					<h5>Chennai, India</h5>
-					
-				</div>
-				<div class = "CareerObj">
-					<q>I am a young Passionate <span>programmer</span> and <span>web designer</span>, looking for a platform to improve and enhance my skill.</q>
-					<I>Student @ <span>Code Academy, edwisor.com , HackerRank, Project Euler</span></I>
-					<div><span class="glyphicon glyphicon-envelope"><br> Mail</span>
-					</div>
-				</div>
-			</div>
-		</div>
-</div>
-</div>
-<div class = "col-md-6 col-sm-5 col-xs-12 col-lg-6">
 	<div class = "row">
-		<div class = "col-md-12">
-			<div class = "section">
-				<h4 class = "lightblue">Programming Background</h4>
-				<dl class = "dl-vertical">
-					<dt class = "redOrange">Certification</dt>
-					<dd>
-						<ul>
-							<li>Java Core and Basic J2EE concepts Course in CSC</li>
-							<li>C certification @ NPTEL</li>
-						<ul>
-					</dd>
-				<dl>
-				<dl class = "dl-vertical">
-					<dt class = "redOrange">Currently Pursuing</dt>
-					<dd>
-						<ul>
-							<li>Mean Stack @ Edwisor.com</li>
-						<ul>
-					</dd>
-				<dl>
-				<dl class = "dl-vertical">
-					<dt class = "lightblue"> proficient Technologies </dt>
-					<br>
-					<dd>
-								<dl class = "dl-vertical">
-								<dt class = "redOrange"> Advanced in </dt>
-									<dd>
-										<ul>
-											<li>[“C”, “Web Technologies (HTML, CSS, BOOTSTRAP, MYSQL, JSON)”]</li>
-										<ul>
-									</dd>
-								</dt>
-								</dl>
-								<dl class = "dl-vertical">
-								<dt class = "redOrange"> Intermediate in </dt>
-									<dd>
-										<ul>
-											<li>[“C++”, “Java”, “Python”, “JavaScript”, "Tcl", "Angular JS"]</li>
-										<ul>
-									</dd>
-								</dt>
-								</dl>
-								<dl class = "dl-vertical">
-								<dt class = "redOrange"> Novice in </dt>
-									<dd>
-										<ul>
-											<li>Haskell</li>
-											<li>React Js</li>
-										<ul>
-									</dd>
-								</dt>
-								</dl>
-					</dd>
-				<dl>
+		<div class = "col-md-6 col-sm-12 col-xs-12" style = "padding-top: 15px;">
+			<div class="panel panel-default" >
+			  <div class="panel-heading" style = "background-color: #5c5cd6; color: white;">Proficient Technologies</div>
+			  <div class="panel-body">
+				<ul>
+					<li>I have Strong knowledge in C programming and Web Technologies</li>
+					<li>I am intermediate in C++ , Java , Python</li>
+					<li>I have fair understanding in Javascript , Angular JS, Haskell</li>
+					<li>I have completed J2EE Certification in CSC</li>
+					<li>C programming certification from NPTEL</li>
+				</ul>
+			  
+			  </div>
+			</div>
+		</div>	
+		<div class = "col-md-6 col-sm-12 col-xs-12" style = "padding-top: 15px;">
+			<div class="panel panel-default" >
+			  <div class="panel-heading" style = "background-color: #90236d; color: white;">Things Interest Me</div>
+			  <div class="panel-body">
+				<ul>
+					<li>I have good knowledge in Data Structures.</li>
+					<li>Database - My sql, Oracle</li>
+					<li>My favorite subject is Operating System</li>
+					<li>I love Programming @ Code Academy, Hackerrank, Techgig, solving Project Euler Problems</li>
+				</ul>
+			  
+			  </div>
 			</div>
 		</div>
 	</div>
+	<div class = "row" style = " border-bottom: 3px solid grey; padding-top: 15px; padding-bottom: 25px">
+		<div class = "col-md-6 col-sm-12 col-xs-12" style = "padding-top: 15px;">
+			<div class="panel panel-default">
+			  <div class="panel-heading" style = "background-color: #5c0099; color: white;">Notable Involvement</div>
+			  <div class="panel-body">
+				<ul>
+					<li>I have got 2nd Prize in Web Designing and Finalist in OSPC programming competition in Prayatna’15 , MIT,Chennai</li>
+					<li>3rd prize in Software contest (PIT in association with CSI Chennai Chapter)</li>
+					<li>29th rank out of 169 teams in ACM ICPC-INDIA CHENNAI MULTI PROVINCIAL CONTEST-2015</li>
+					<li>Semi finalist in Code Glagiator - 2016 in Techgig</li>
+					<li>I have participated in RoboTryst-2015 Workshop conducted by Robosapiens Pvt. Ltd</li>
+					<li>I have participated in Network Implementation workshop by Network bulls e-cell IIT-BOMBAY</li>
+					<li>I have completed Business English Certification preliminary in University of Cambridge ESOL Examination.</li>
+				</ul>
+			  
+			  </div>
+			</div>
+		</div>
+		<div class = "col-md-6 col-sm-12 col-xs-12" style = "padding-top: 15px;">
+			<div class="panel panel-default" >
+			  <div class="panel-heading" style = "background-color: #90236d; color: white;">My Personal Traits</div>
+			  <div class="panel-body">
+				<ul>
+					<li>My hobbies are Yoga, Drawing, Playing Games like Chess, Cricket</li>
+					<li>Martial Arts - Kun chuck - You can find my Video in <a href = "https://www.youtube.com/watch?v=nGyFDffKu7Y&t=1s" >youtube</a></li>
+					<li>I always want to stand out from the crowd</li>
+					<li>I am optimistic</li>
+					<li>I always take rapid decisions it backfires me some time.</li>
+					<li>I know time will change , So always try to learn new things.</li>
+				</ul>
+			  
+			  </div>
+			</div>
+		</div>
+		
+		
+	</div>
 	<div class = "row">
-		<div class = "col-md-12">
-			<div class = "section">
-				<h4 class = "lightblue">Things Interest Me</h4>
-				<dl class = "dl-vertical">
-					<dt class = "redOrange">Favourite Topic</dt>
-					<dd>
-						<ul>
-							<li>Data Structures</li>
-							<li>Operating Systems</li>
-							<li>DataBase Management</li>
-						<ul>
-					</dd>
-				<dl>
-				<dl class = "dl-vertical">
-					<dt class = "redOrange">Online Programming Involvement</dt>
-					<dd>
-						<ul>
-							<li>Learner @ Code Academy, Coursera</li>
-							<li>Programmer @ Hakkerrank, Techgig, codechef, Project Euler</li>
-						<ul>
-					</dd>
-				<dl>
-			</div>	
+		<div class = "col-md-12 col-xs-12 col-sm-12" style = "text-align: center">
+			<p style = "color: #cc0066; padding-top: 15px;">You can find my some of the useful works <a href = "https://github.com/Narayanamurthy-adhiappan">here</a> </p>
 		</div>
+	</div>
 </div>
-<div class = "row">
-		<div class = "col-md-12">
-			<div class = "section">
-				<h4 class = "lightblue">Notable Involvement</h4>
-				<dl class = "dl-vertical">
-					<dt class = "redOrange">Workshops</dt>
-					<dd>
-						<ul>
-							<li>RoboTryst-2015 Workshop conducted by Robosapiens Pvt. Ltd</li>
-							<li>Network Implementation by Network bulls e-cell IIT-BOMBAY</li>
-							<li>Business English Certification preliminary in University of Cambridge ESOL Examination.</li>
-						<ul>
-					</dd>
-				<dl>
-				<dl class = "dl-vertical">
-					<dt class = "redOrange">Some Accomplishment</dt>
-					<dd>
-						<ul>
-							<li>2nd Prize in Web Designing and Finalist in OSPC programming competition in Prayatna’15 , MIT,Chennai</li>
-							<li>3rd prize in Software contest (PIT in association with CSI Chennai Chapter)</li>
-							<li>29th rank out of 169 teams in ACM ICPC-INDIA CHENNAI MULTI PROVINCIAL  CONTEST-2015</li>
-							<li>Semi finalist in Code Glagiator - 2016 in Techgig</li>
-						<ul>
-					</dd>
-				<dl>
-			</div>	
+
+
+<div class = "container-fluid" style = "padding-top: 15px">
+	<div class = "row custom_footer" >
+		<div class = "col-md-4">
 		</div>
-</div>
-<div class = "row">
-		<div class = "col-md-12">
-			<div class = "section">
-				<h4 class = "lightblue">Personal Information</h4>
-				<dl class = "dl-vertical">
-					<dt class = "redOrange">About me in short</dt>
-					<dd>
-						<ul>
-							<li>Born on 14th March 1994</li>
-							<li>Son of Mr.Adhiappan and Mrs.Parameshwari</li>
-							<li>My hobbies are “yoga” , “Drawing”, kun chuck (youtube link of my channel <a href = "https://www.youtube.com/watch?v=nGyFDffKu7Y">https://www.youtube.com/watch?v=nGyFDffKu7Y</a>)</li>
-						<ul>
-					</dd>
-				<dl>
-				<dl class = "dl-vertical">
-					<dt class = "redOrange">My Strength</dt>
-					<dd>
-						<ul>
-							<li>Can deliver my ideas and views to others very effectively</li>
-							<li>Adapt to any situation very quickly</li>
-							<li>Willing to learn new things</li>
-						<ul>
-					</dd>
-				<dl>
-				<dl class = "dl-vertical">
-					<dt class = "redOrange">My Weakness</dt>
-					<dd>
-						<ul>
-							<li>Fast approach in everything</li>
-						<ul>
-					</dd>
-				<dl>
-			</div>	
+		<div class = "col-md-4">
+		<address>
+			<strong style = "color: #ffff00; font-size: 18px;">My Mail ID</strong>
+			<br>
+			<a href="mailto:n777rayanamurthy@gmail.com" style= "font-size: 14px">n777rayanamurthy@gmail.com</a>
+			<br>
+			<strong style = "color: #ffff00; font-size: 18px;">My Phone number</strong>
+			<br>
+			<span  style= "font-size: 14px">+91 9710773199</span>
+			<br>
+			<strong style = "color: #ffff00; font-size: 18px;">My Address</strong>
+			<br>
+			<span  style= "font-size: 14px">
+			No: 1/43, Mettu Street,
+			Keevalur, Thandalam Post,
+			Sriperumandhur Taluk,
+			Kancheepuram - 602105.
+			</span>
+		</address>
 		</div>
+		<div class = "col-md-4">
+		</div>
+	</div>
 </div>
-</div>
-</div>
-</div>
-</div>
+
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
 
 
-</html>
+
+<script>
+var TxtRotate = function(el, toRotate, period) {
+  this.toRotate = toRotate;
+  this.el = el;
+  this.loopNum = 0;
+  this.period = parseInt(period, 10) || 2000;
+  this.txt = '';
+  this.tick();
+  this.isDeleting = false;
+};
+
+TxtRotate.prototype.tick = function() {
+  var i = this.loopNum % this.toRotate.length;
+  var fullTxt = this.toRotate[i];
+
+  if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+  } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
+  }
+
+  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+  var that = this;
+  var delta = 300 - Math.random() * 100;
+
+  if (this.isDeleting) { delta /= 2; }
+
+  if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+  } else if (this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 500;
+  }
+
+  setTimeout(function() {
+    that.tick();
+  }, delta);
+};
+
+window.onload = function() {
+  var elements = document.getElementsByClassName('txt-rotate');
+  for (var i=0; i<elements.length; i++) {
+    var toRotate = elements[i].getAttribute('data-rotate');
+    var period = elements[i].getAttribute('data-period');
+    if (toRotate) {
+      new TxtRotate(elements[i], JSON.parse(toRotate), period);
+    }
+  }
+  // INJECT CSS
+  var css = document.createElement("style");
+  css.type = "text/css";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666; font-size: 20px }";
+  document.body.appendChild(css);
+};
+</script>
+<html>
