@@ -23,12 +23,75 @@
 	background-color: #5c5cd6;
 	color: white;
 }
-li{
-	font-size: 16px;
+@media screen and (min-width: 650px){
+	li{
+		font-size: 16px;
+	}
+	a{
+		font-size: 16px;
+	}
+	p{
+		font-size: 16px;
+	}
+	h1{
+		font-size: 12px;
+	}
+	span {
+		font-size: 20px;
+	}
+	.font123{
+		font-size: 22px;
+	}
+	strong{
+		font-size: 18px;
+	}
+
 }
-a{
-	font-size: 16px;
+
+
+@media screen and (max-width: 480px){
+	li{
+		font-size: 12px;
+	}
+	a{
+		font-size: 12px;
+	}
+	p{
+		font-size: 12px;
+	}
+	
+	span {
+		font-size: 16px;
+	}
+	.font123{
+		font-size: 18px;
+	}
+	strong{
+		font-size: 14px;
+	}
+
 }
-p{
-	font-size: 16px;
+
+
+@media screen and (min-width: 481px) and (max-width: 651px){
+	li{
+		font-size: 14px;
+	}
+	a{
+		font-size: 14px;
+	}
+	p{
+		font-size: 14px;
+	}
+	
+	span {
+		font-size: 18px;
+	}
+	.font123{
+		font-size: 20px;
+	}
+	strong{
+		font-size: 16px;
+	}
+
 }
