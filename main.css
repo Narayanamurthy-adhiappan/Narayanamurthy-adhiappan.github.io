@@ -1,0 +1,43 @@
+.description{
+	font-weight: bold;
+	word-spacing: 10px;
+	letter-spacing: 2px;
+	color: grey;
+}
+.footer{
+	padding-top: 80px;
+}
+p, li{
+	font-family: adobe-garamond-pro;
+	font-size: 18px;
+    font-weight: 300;
+	line-height: 25px;
+    color: #545454;
+	word-spacing: 10px;
+	letter-spacing: 1px;
+	
+}
+a{
+	padding-left: 15px;
+	font-size: 18px;
+}
+.header{
+	position: fixed;
+	width: 100%;
+	border: 1px solid black;
+}
+.navTitle{
+	font-size: 18px;
+	padding: 15px;
+	font-weight: bold;
+}
+
+.parallax {
+  background: url("http://userinterfacetalk.com/wp-content/uploads/2015/06/ui-ux-designer.jpg");
+  background-attachment: fixed;
+   background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
