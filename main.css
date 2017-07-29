@@ -9,7 +9,6 @@
 }
 p, li{
 	font-family: adobe-garamond-pro;
-	font-size: 18px;
     font-weight: 300;
 	line-height: 25px;
     color: #545454;
@@ -19,7 +18,6 @@ p, li{
 }
 a{
 	padding-left: 15px;
-	font-size: 18px;
 }
 .header{
 	position: fixed;
@@ -27,7 +25,6 @@ a{
 	border: 1px solid black;
 }
 .navTitle{
-	font-size: 18px;
 	padding: 15px;
 	font-weight: bold;
 }
@@ -54,5 +51,68 @@ a{
 	}
 	100%{
 		opacity: 1;
+	}
+}
+@media screen and (min-width: 993px){
+	#menuStrip{
+		display: none;
+	}
+}
+@media screen and (max-width: 992px){
+	#menuStrip{
+		display: block;
+	}
+}
+.dropdown{
+	display: block;
+	background-color: white;
+	margin-top: 70px;
+	transition: 2s;
+	display: none;
+	
+	float : right;
+}
+
+
+@media screen and (max-width: 480px){
+	p, li{
+		font-size: 14px;
+	}
+	a{
+		font-size: 14px;
+	}
+	.navTitle{
+		font-size: 14px;
+	}
+	h4{
+		font-size: 18px;
+	}
+}
+@media screen and (min-width: 481px) and (max-width: 720px){
+	p, li{
+		font-size: 16px;
+	}
+	a{
+		font-size: 16px;
+	}
+	.navTitle{
+		font-size: 16px;
+	}
+	h4{
+		font-size: 20px;
+	}
+}
+@media screen and (min-width: 721px){
+	p, li{
+		font-size: 18px;
+	}
+	a{
+		font-size: 18px;
+	}
+	.navTitle{
+		font-size: 18px;
+	}
+	h4{
+		font-size: 20px;
 	}
 }
